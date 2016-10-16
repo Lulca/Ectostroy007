@@ -1,9 +1,27 @@
 body {
-	font-family: 'Roboto-Regular', Arial, sans-serif;
+	font-family: 'FuturaBookC', Arial, sans-serif;
 	font-size: $font-size;
 	background-color: $main-color;
-	line-height: 1;
+	line-height: 18px;
 	color: $text-color;
-	max-width: 1480px;
+	max-width: 1920px;
 	margin: 0 auto;
+}
+
+.b-title {
+	font-size: $title-size;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1380px;
+	}
+}
+
+// 70c, 76, 84, 70, 83, 75c, 68, 69, 120
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../../fonts/glyphicons/glyphicons-halflings-regular.eot');
+  src: url('../../fonts/glyphicons/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../../fonts/glyphicons/glyphicons-halflings-regular.woff2') format('woff2'), url('../../fonts/glyphicons/glyphicons-halflings-regular.woff') format('woff'), url('../../fonts/glyphicons/glyphicons-halflings-regular.ttf') format('truetype'), url('../../fonts/glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
