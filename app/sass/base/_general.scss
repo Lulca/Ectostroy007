@@ -8,20 +8,71 @@ body {
 	margin: 0 auto;
 }
 
+.container-1350 {
+	max-width: 1350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .b-title {
 	font-size: $title-size;
 }
-
-@media (min-width: 1200px) {
-	.container {
-		width: 1380px;
-	}
-}
-
-// 70c, 76, 84, 70, 83, 75c, 68, 69, 120
 
 @font-face {
   font-family: 'Glyphicons Halflings';
   src: url('../../fonts/glyphicons/glyphicons-halflings-regular.eot');
   src: url('../../fonts/glyphicons/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../../fonts/glyphicons/glyphicons-halflings-regular.woff2') format('woff2'), url('../../fonts/glyphicons/glyphicons-halflings-regular.woff') format('woff'), url('../../fonts/glyphicons/glyphicons-halflings-regular.ttf') format('truetype'), url('../../fonts/glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
+
+.carousel-control.left {
+	background-image: none;
+}
+
+.carousel-control.right {
+	background-image: none;
+}
+
+.inline-b {
+	display: inline-block;
+}
+
+a {
+	color: $text-color;
+	&:hover {
+		color: $text-color;
+	}
+}
+
+.text-dec-none {
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.futurademic-text {
+	font-family: "futurademic";
+}
+
+.gray-text {
+	color: #888888;
+}
+
+.under-text-grey {
+	border-bottom: 1px solid #989898;
+}
+
+.under-text-yellow {
+	border-bottom: 1px solid #e1b150;
+	color: #e1b150
+}
+
+.text-color-yellow {
+	color: #f7a043;
+}
+
+.text-color-yel-slid {
+	color: #f7a042;
+	border-bottom: 1px solid #f7a042;
+}
+

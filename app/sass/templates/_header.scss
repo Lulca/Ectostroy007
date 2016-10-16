@@ -1,4 +1,116 @@
 .main-header {
 	height: 170px;
-	@include bg-img ("../../img/header-bg.png");
+}
+
+.up-top-nav {
+	padding: 40px 0px 30px 0px;
+}
+
+	
+.up-top-nav__item {
+	margin-right: 40px;
+	.moscow-shop {
+		font-family: "futurademic";
+		border-bottom: 2px dotted #000;
+	}
+}
+
+.up-top-nav__item_fast {
+	margin-right: 20px;
+	margin-left: -30px;
+}
+
+.header-phone {
+	margin-right: 5px;
+}
+
+.up-top-nav__item_shop {
+	margin-left: 20px;
+}
+
+
+.sprite-fast-icon {
+	position: relative;
+	right: 5px;
+	top: 3px;
+}
+
+
+.glyphicon-menu-down {
+	font-size: 12px;
+}
+
+.glyphicon-menu-up {
+	font-size: 12px;
+}
+
+.gray-text {
+	font-size: 14px;
+}
+
+.top-phone {
+	font-size: 19px;
+}
+
+.top-show {
+	font-size: 14px;
+	border-bottom: 1px dotted $text-color;
+}
+
+.down-top-nav li{
+	font-family: 'futurademic';
+	font-size: 19px;
+	margin-right: 18px;
+
+	a {
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+.sprite-bin-icon {
+	position: relative;
+	top: 5px;
+	right: 5px;
+}
+
+.top-down-nav {
+	padding-top: 20px;
+	border-top: 1px solid #e5e5e5;
+	margin-top: 30px;
+}
+
+.logo {
+	position: relative;
+	bottom: 10px;
+}
+
+.cities-list {
+	display: none;
+	position: absolute;
+	background-color: #f6f5f4;
+	// #f6f5f4;
+	z-index: 1000;
+	a {
+		display: block;
+		padding: 13px 15px 13px 34px;
+	}
+	li {
+		
+		a:hover {
+			text-decoration: none;
+			background-color: #e5b328;
+		}
+	}
+	top: -13px;
+	left: -11px;
+}
+
+.up-top-nav__item_shop {
+	&:hover {
+		.cities-list {
+			display: block;
+		}
+	}
 }
