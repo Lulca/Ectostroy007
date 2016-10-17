@@ -1,0 +1,14 @@
+.yellow-button {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	transition: all .3s;
+	&:hover {
+		text-decoration: none;
+		color: #fff;
+		background-color: darken($accent-color,10%);
+	}
+	background-color: #f7a042;
+	padding: 8px 16px;
+	border-radius: 16px 16px 16px 16px;	
+}

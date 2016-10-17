@@ -1,8 +1,7 @@
 .main-slider {
-	margin-top: -120px;
-    position: relative;
     top: 0px;
     z-index: -500;
+    display: none;
 }
 
 .chose-solution {
@@ -13,6 +12,7 @@
 }
 
 .ecto-control {
+	display: none;
 	width: 737px;
 	text-align: left;
 	h1 {
@@ -104,5 +104,28 @@
 	height: 620px;
 }
 
+.boiler {
+	color: #fff;
+	margin-bottom: 40px;
+	font-size: 20px;
+}
 
+.sprite3 {
+	position: relative;
+	top: 0px;
+	right: 10px;
+	float: left;
+}
 
+.sprite-drive_03 {
+	top: -5px;
+}
+
+.sprite-drive_06 {
+	top: -5px;
+}
+
+.d-distance-title {
+	margin-top: 150px;
+	margin-bottom: 75px;
+}

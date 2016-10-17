@@ -150,6 +150,16 @@ table {
   height: 28px;
   background-position: -210px -5px; }
 
+.yellow-button {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background-color: #f7a042;
+  padding: 9px 16px;
+  border-radius: 8px 8px 8px 8px; }
+  .yellow-button:hover {
+    text-decoration: none; }
+
 body {
   font-family: 'FuturaBookC', Arial, sans-serif;
   font-size: 15px;
@@ -165,7 +175,8 @@ body {
   margin-right: auto; }
 
 .b-title {
-  font-size: 36px; }
+  font-size: 36px;
+  color: #fff; }
 
 @font-face {
   font-family: 'Glyphicons Halflings';
@@ -210,9 +221,6 @@ a {
 .text-color-yel-slid {
   color: #f7a042;
   border-bottom: 1px solid #f7a042; }
-
-.main-header {
-  height: 170px; }
 
 .up-top-nav {
   padding: 40px 0px 30px 0px; }
@@ -293,10 +301,9 @@ a {
   display: block; }
 
 .main-slider {
-  margin-top: -120px;
-  position: relative;
   top: 0px;
-  z-index: -500; }
+  z-index: -500;
+  display: none; }
 
 .chose-solution {
   font-size: 17px;
@@ -305,6 +312,7 @@ a {
   width: 650px; }
 
 .ecto-control {
+  display: none;
   width: 737px;
   text-align: left;
   position: relative;
@@ -378,3 +386,37 @@ a {
   background-size: cover;
   background-attachment: scroll;
   height: 620px; }
+
+.boiler {
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 20px; }
+
+.sprite3 {
+  position: relative;
+  top: 0px;
+  right: 10px;
+  float: left; }
+
+.sprite-drive_03 {
+  top: -5px; }
+
+.sprite-drive_06 {
+  top: -5px; }
+
+.d-distance-title {
+  margin-top: 150px;
+  margin-bottom: 75px; }
+
+.yellow-button {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  transition: all .3s;
+  background-color: #f7a042;
+  padding: 8px 16px;
+  border-radius: 16px 16px 16px 16px; }
+  .yellow-button:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #f58711; }

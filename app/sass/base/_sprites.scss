@@ -86,4 +86,16 @@
     background-position: -210px -5px;
 }
 
+.yellow-button {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
+	background-color: #f7a042;
+	padding: 9px 16px;
+	border-radius: 8px 8px 8px 8px;	
+}
+
 
