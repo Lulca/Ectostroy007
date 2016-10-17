@@ -3,12 +3,33 @@
 	color: #fff;
 	text-decoration: none;
 	transition: all .3s;
-	&:hover {
+	&:hover, &:visited, &:link, &:active {
 		text-decoration: none;
 		color: #fff;
-		background-color: darken($accent-color,10%);
+	}
+
+	&:hover {
+		background-color: darken($accent-color,15%);
 	}
 	background-color: #f7a042;
 	padding: 8px 16px;
+	border-radius: 16px 16px 16px 16px;	
+}
+
+.black-button {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	transition: all .3s;
+	&:hover, &:visited, &:link, &:active {
+		text-decoration: none;
+		color: #fff;
+	}
+
+	&:hover {
+		background-color: darken(#1f1f1f,15%);
+	}
+	background-color: #1f1f1f;
+	padding: 6px 18px;
 	border-radius: 16px 16px 16px 16px;	
 }

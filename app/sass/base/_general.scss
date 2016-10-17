@@ -42,6 +42,9 @@ a {
 	&:hover {
 		color: $text-color;
 	}
+	&:visited {
+		text-decoration: underline;
+	}
 }
 
 .text-dec-none {
@@ -75,6 +78,15 @@ a {
 .text-color-yel-slid {
 	color: #f7a042;
 	border-bottom: 1px solid #f7a042;
+}
+
+.bold-text {
+	font-family: 'futurademic';
+}
+
+.drive__title {
+	margin-top: 100px;
+	margin-bottom: 45px;
 }
 
 
