@@ -78,6 +78,10 @@ a {
 .text-color-yel-slid {
 	color: #f7a042;
 	border-bottom: 1px solid #f7a042;
+	&:hover {
+		color: #f7a042;
+		text-decoration: none;
+	}
 }
 
 .bold-text {

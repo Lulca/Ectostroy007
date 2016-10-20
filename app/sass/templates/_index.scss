@@ -473,3 +473,38 @@ $tab-accent-color: #e5b328;
 	left: 73px;
 	top: 30px;
 }
+
+
+//adaptive part
+
+.show-1349 {
+	display: none;
+}
+
+.down-top-nav {
+	text-align: left;
+}
+
+.cooperation {
+	// text-decoration: underline;
+	&:visited {
+		text-decoration: none;
+		color: #f7a042;
+	}
+}
+
+.show-992 {
+	display: none;
+}
+
+
+@for $i from 1 through 7 {
+	.map-sensor#{$i} {
+		display: none;
+	}
+}
+
+h1, h2, h3 {
+	line-height: 1;
+}
+
