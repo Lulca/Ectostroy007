@@ -207,6 +207,28 @@
 			width: 300px;
 		}
 	}
+
+	.padding-form {
+		padding-left: 0;
+	}
+
+	.fill-form {
+		margin-top: 30px;
+	}
+
+	.didnt-find-city {
+		margin-bottom: 20px;
+	}
+
+	.drop-down-nav {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.news__title {
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
 }
 
 // .cities-tab {
@@ -252,6 +274,18 @@
 	.tab-pane .sprite-fast-icon {
 		left: 0;
 	}
+
+	.basket {
+		display: inline-block;
+	}
+
+	.icon-menu {
+		display: inline-block;
+	}
+
+	.up-top-nav__item {
+		margin-bottom: 10px;
+	}
 }
 
 @media only screen and (max-width: 850px) {
@@ -277,4 +311,156 @@
 	.set-sistem {
 		font-size: 14px;
 	}
+
+	.send-p {
+		font-size: 12px;
+	}
+
+	.time-send {
+		left: 160px;
+	}
+
+	.days-send {
+		position: absolute;
+		margin-right: 0;
+		left: 210px;
+	}
+
+	.boiler {
+		font-size: 16px;
+		margin-bottom: 30px;
+	}
+
+	.b-title {
+		font-size: 26px;
+	}
+
+	.d-distance-title {
+		margin-top: 30px;
+		margin-bottom: 25px;
+	}
+
+	.drive {
+		padding-bottom: 30px;
+		background-position: 60%;
+	}
+
+	.access {
+		background-position: 20%;
+	}
+
+	.sound-message {
+		font-size: 14px;
+	}
 }
+
+
+@media only screen and (max-width: 765px) { 
+	.indic-text {
+		font-size: 9px;
+	}
+
+	.carousel-indicators li:last-child {
+		width: 105px;
+		left: -11px;
+	}
+
+	.carousel-indicators li:nth-child(2) {
+		width: 105px;
+	}
+
+	.carousel-indicators li:first-child {
+		width: 80px;
+		left: 18px;
+	}
+
+	.carousel-indicators {
+		width: 310px;
+	}
+
+	.header-lining {
+		height: 130px;
+	}
+
+	.chose-city {
+		margin-top: 15px;
+		margin-bottom: 5px;
+	}
+
+	.sprite-pause {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 500px) { 
+	.carousel-indicators {
+		margin-left: -170px;
+	}
+
+	.logo {
+		left: 0;
+	}
+
+	.up-top-nav {
+		padding-left: 0;
+	}
+}
+
+
+@media only screen and (max-width: 450px) { 
+	.news-text {
+		width: 100%;
+		padding-left: 90px;
+	}
+
+	.black-button-f-size {
+		font-size: 9px;
+	}
+
+	.ecto-control h2 {
+		margin-bottom: 0;
+	}
+
+	.up-top-nav {
+		text-align: left;
+	}
+
+	.fz-14 {
+		font-size: 14px;
+	}
+
+	.top-phone {
+		font-size: 15px;
+	}
+
+	.ecto-control h2 {
+		margin-bottom: 0;
+	}
+
+	.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+		height: 240px;
+	}
+
+	.icons-grup {
+		top: 107px;
+	}
+}
+
+@media only screen and (max-width: 410px) {
+	.icons-grup {
+		right: 10px;
+	}
+
+	.logo {
+		left: -10px;
+	}
+
+	.logo img {
+		width: 180px;
+	}
+
+	.top-phone {
+		font-size: 14px;
+	}
+} 
+

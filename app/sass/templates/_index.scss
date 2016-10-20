@@ -508,3 +508,51 @@ h1, h2, h3 {
 	line-height: 1;
 }
 
+.icon-menu {
+	background-color: #f79c3b;
+	color: #fff;
+	display: inline-block;
+	padding: 9px 10px;
+	font-size: 29px;
+	position: relative;
+	top: -11px;
+}
+
+	.basket {
+		display: none;
+	}
+
+	.icon-menu {
+		display: none;
+	}
+
+.drop-down-nav {
+	background-color: #3d3d3d;
+	margin-top: 10px;
+	display: none;
+	li {
+		padding: 13px;
+		padding-left: 50px;
+		font-size: 19px;
+		color: #fff;
+	}
+}
+
+.icons-grup {
+	position: absolute;
+	right: 50px;
+	top: 116px;
+}
+
+.icon-menu-dark {
+	background-color: #3d3d3d;
+}
+
+.drop-nav-992 {
+	color: #fff;
+	border-bottom: 1px solid $accent-color;
+}
+
+.yellow-text {
+	color: #f79c3b;
+}
