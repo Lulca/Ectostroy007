@@ -262,39 +262,7 @@ $tab-accent-color: #e5b328;
 	border-right: 20px solid #fff;
 }
 
-.nav-tabs>li>a:hover {
-	background-color: lighten($tab-accent-color, 20%);
-}
 
-.nav-tabs > li > a:hover {
-	color: #fff;
-	&:before {
-		content: '';
-		position: absolute;
-		top: 0;
-		right: 0;
-		border-bottom: 20px solid lighten($tab-accent-color, 20%);
-		border-right: 20px solid #fff;
-	}
-	&:after {
-		content: '';
-		position: absolute;
-		bottom: 0;
-		right: 0;
-		border-top: 20px solid lighten($tab-accent-color, 20%);
-		border-right: 20px solid #fff;
-	}
-}
-
-.nav-tabs>li.active>a:hover {
-	background-color: $tab-accent-color;
-	&:before {
-		border-bottom-color: $tab-accent-color;
-	}
-	&:after {
-		border-top-color: $tab-accent-color;
-	}
-}
 
 .nav-tabs >li a{
 	text-decoration: underline;
@@ -425,9 +393,10 @@ $tab-accent-color: #e5b328;
 		display: list-item;
 		cursor: pointer;
 		list-style-type: circle;
+		padding: 6px 11px 8px 15px;
 		// color: $accent-color2;
 		display: inline-block;
-		margin-bottom: 15px;
+		margin-bottom: 5px;
 		border-bottom: 1px solid $accent-color2;
 	}
 }
@@ -555,4 +524,16 @@ h1, h2, h3 {
 
 .yellow-text {
 	color: #f79c3b;
+}
+
+.sensor-list .sensor-list__item {
+	background-image: url('../../img/dot.png');
+	background-repeat: no-repeat;
+	background-position: 2px 11px;
+	padding-left: 10px;
+}
+
+.chose-city-992 {
+	color: #e5b328;
+	padding-left: 13px;
 }
