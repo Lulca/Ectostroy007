@@ -857,7 +857,8 @@ a {
   background-position: 10px 6px; }
 
 .map-sensor {
-  display: inline-block; }
+  display: inline-block;
+  list-style: none; }
 
 .map-sensor-descript {
   background-color: #fff;
@@ -966,9 +967,6 @@ h1, h2, h3 {
 .chose-city-992 {
   color: #e5b328;
   padding-left: 13px; }
-
-.nav-tabs {
-  display: none; }
 
 .main-footer {
   background-color: #f6f5f4;
@@ -1188,7 +1186,9 @@ h1, h2, h3 {
     display: none;
     margin-bottom: -10px;
     left: -12px;
-    top: 10px; } }
+    top: 10px; }
+  .nav-tabs {
+    display: none; } }
 
 @media only screen and (max-width: 950px) {
   .header-lining {

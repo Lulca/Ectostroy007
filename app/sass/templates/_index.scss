@@ -416,6 +416,7 @@ $tab-accent-color: #e5b328;
 
 .map-sensor {
 	display: inline-block;
+	list-style: none;
 }
 
 .map-sensor-descript {
@@ -538,6 +539,3 @@ h1, h2, h3 {
 	padding-left: 13px;
 }
 
-.nav-tabs {
-	display: none;
-}
