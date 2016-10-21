@@ -209,6 +209,10 @@
 	.black-button-f-size {
 		font-size: 11px;
 	}
+
+	.message {
+		margin-top: 200px;
+	}
 }
 
 
@@ -363,6 +367,25 @@
 
 	.nav-tabs {
 		display: none;
+	}
+
+	.access {
+		background-position: 0px;
+		padding-bottom: 300px;
+	}
+
+	.pos-access {
+		position: relative;
+		top: 290px;
+	}
+
+	.sprite-pause {
+		display: none;
+	}
+
+	.message {
+		position: relative;
+		top: 280px;
 	}
 }
 
@@ -578,6 +601,14 @@
 
 	.icons-grup {
 		top: 107px;
+	}
+
+	.pos-access {
+		top: -20px;
+	}
+
+	.message {
+		top: 0;
 	}
 }
 
