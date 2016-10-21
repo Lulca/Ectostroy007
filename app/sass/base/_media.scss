@@ -269,7 +269,7 @@
 		width: 300px;
 		height: 400px;
 		img {
-			width: 300px;
+			width: 290px;
 		}
 	}
 
@@ -346,7 +346,20 @@
 		border-bottom: 1px dotted #f79c3b;
 	}
 
+	.nav-tabs .didnt-f {
+		display: none;
+	}
 
+	.chevr-down {
+		padding-left: 4px;
+	}
+
+	.sensor-list .map-sensor {
+		display: none;
+		margin-bottom: -10px;
+		left: -12px;
+		top: 10px;
+	}
 }
 
 // .cities-tab {

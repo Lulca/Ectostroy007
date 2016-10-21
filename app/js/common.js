@@ -9,7 +9,7 @@ var siteNavigation = (function() {
 			// var menuWrap = $('.menu-wrap');
 
 			button.on('click', function() {
-				$that = $(this);
+				var $that = $(this);
 				var menu = $that.parent().parent().find('.drop-down-nav');
 				menu.fadeToggle();
 				button.addClass('icon-menu-dark');
@@ -46,8 +46,23 @@ var choseCity = (function() {
 			});
 
 			li.on('click', function() {
-				$that = $(this);
+				var $that = $(this);
 				innerCity.text($that.text());
+			});
+		}
+	}
+})();
+
+
+var showSensor = (function() {
+	return {
+		init: function() {
+			var sensorItem = $('.sensor-list__item');
+
+			sensorItem.on('click', function() {
+				var $that = $(this);
+				var sensorDescription = $that.next();
+				sensorDescription.slideToggle();
 			});
 		}
 	}
@@ -57,4 +72,5 @@ var choseCity = (function() {
 $(document).ready(function() {
 	siteNavigation.init();
 	choseCity.init();
+	showSensor.init();
 });

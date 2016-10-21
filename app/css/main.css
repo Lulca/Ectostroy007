@@ -967,6 +967,9 @@ h1, h2, h3 {
   color: #e5b328;
   padding-left: 13px; }
 
+.nav-tabs {
+  display: none; }
+
 .main-footer {
   background-color: #f6f5f4;
   padding: 25px 0px; }
@@ -1135,7 +1138,7 @@ h1, h2, h3 {
     width: 300px;
     height: 400px; }
     .map-sensor img {
-      width: 300px; }
+      width: 290px; }
   .padding-form {
     padding-left: 0; }
   .fill-form {
@@ -1176,7 +1179,16 @@ h1, h2, h3 {
     margin-top: 15px;
     margin-bottom: 10px; }
   .inner-city {
-    border-bottom: 1px dotted #f79c3b; } }
+    border-bottom: 1px dotted #f79c3b; }
+  .nav-tabs .didnt-f {
+    display: none; }
+  .chevr-down {
+    padding-left: 4px; }
+  .sensor-list .map-sensor {
+    display: none;
+    margin-bottom: -10px;
+    left: -12px;
+    top: 10px; } }
 
 @media only screen and (max-width: 950px) {
   .header-lining {
