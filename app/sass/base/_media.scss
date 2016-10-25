@@ -14,6 +14,18 @@
 
 }
 
+@media only screen and (max-width: 1100px) {
+	.sensor-list .sensor-list__item {
+		font-size: 17px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.sensor-list {
+		margin-bottom: 10px;
+	}
+}
+
 @media only screen and (min-width: 992px) {
 	.chose-city-992 {
 		display: none;
@@ -252,9 +264,9 @@
 		margin-right: auto;
 	}
 
-	.second-sensor-list {
-		margin-top: -200px;
-	}
+	// .second-sensor-list {
+	// 	margin-top: -200px;
+	// }
 
 	.drive__title {
 		margin-top: 20px;
@@ -272,6 +284,9 @@
 	.map-sensor {
 		width: 300px;
 		height: 400px;
+		position: absolute;
+		z-index: 1;
+		top: 40px;
 		img {
 			width: 290px;
 		}
@@ -362,7 +377,7 @@
 		display: none;
 		margin-bottom: -10px;
 		left: -12px;
-		top: 10px;
+		top: 50px;
 	}
 
 	.nav-tabs {
@@ -386,6 +401,20 @@
 	.message {
 		position: relative;
 		top: 280px;
+	}
+
+	.house-control {
+		display: none;
+	}
+
+	.sensor-list-wrap {
+		text-align: center;
+	}
+
+	.sensor-list-wrap-in {
+		display: inline-block;
+		text-align: left;
+		width: 195px;
 	}
 }
 
@@ -548,6 +577,7 @@
 	.sprite-pause {
 		display: none;
 	}
+
 }
 
 @media only screen and (max-width: 500px) { 

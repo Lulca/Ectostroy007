@@ -833,8 +833,7 @@ a {
   padding-left: 0px; }
 
 .sensor-list {
-  font-size: 19px;
-  margin-bottom: 200px; }
+  font-size: 19px; }
   .sensor-list .sensor-list__item {
     display: list-item;
     cursor: pointer;
@@ -875,11 +874,6 @@ a {
   position: relative;
   top: 40px;
   left: 121px; }
-
-.map-sensor1 {
-  position: relative;
-  left: 73px;
-  top: 30px; }
 
 .show-1349 {
   display: none; }
@@ -962,11 +956,16 @@ h1, h2, h3 {
   background-image: url("../../img/dot.png");
   background-repeat: no-repeat;
   background-position: 2px 11px;
-  padding-left: 10px; }
+  padding-left: 10px;
+  position: relative; }
 
 .chose-city-992 {
   color: #e5b328;
   padding-left: 13px; }
+
+.house-control {
+  position: absolute;
+  bottom: 0px; }
 
 .main-footer {
   background-color: #f6f5f4;
@@ -985,6 +984,14 @@ h1, h2, h3 {
     color: #fff;
     background-color: #e4a628;
     background-image: none; } }
+
+@media only screen and (max-width: 1100px) {
+  .sensor-list .sensor-list__item {
+    font-size: 17px; } }
+
+@media only screen and (min-width: 992px) {
+  .sensor-list {
+    margin-bottom: 10px; } }
 
 @media only screen and (min-width: 992px) {
   .chose-city-992 {
@@ -1125,8 +1132,6 @@ h1, h2, h3 {
     width: 380px;
     margin-left: auto;
     margin-right: auto; }
-  .second-sensor-list {
-    margin-top: -200px; }
   .drive__title {
     margin-top: 20px; }
   .simple-title {
@@ -1136,7 +1141,10 @@ h1, h2, h3 {
     display: none; }
   .map-sensor {
     width: 300px;
-    height: 400px; }
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+    top: 40px; }
     .map-sensor img {
       width: 290px; }
   .padding-form {
@@ -1188,7 +1196,7 @@ h1, h2, h3 {
     display: none;
     margin-bottom: -10px;
     left: -12px;
-    top: 10px; }
+    top: 50px; }
   .nav-tabs {
     display: none; }
   .access {
@@ -1201,7 +1209,15 @@ h1, h2, h3 {
     display: none; }
   .message {
     position: relative;
-    top: 280px; } }
+    top: 280px; }
+  .house-control {
+    display: none; }
+  .sensor-list-wrap {
+    text-align: center; }
+  .sensor-list-wrap-in {
+    display: inline-block;
+    text-align: left;
+    width: 195px; } }
 
 @media only screen and (max-width: 950px) {
   .header-lining {

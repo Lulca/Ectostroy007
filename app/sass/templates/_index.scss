@@ -388,7 +388,7 @@ $tab-accent-color: #e5b328;
 
 .sensor-list {
 	font-size: 19px;
-	margin-bottom: 200px;
+	// margin-bottom: 200px;
 	.sensor-list__item {
 		display: list-item;
 		cursor: pointer;
@@ -438,11 +438,11 @@ $tab-accent-color: #e5b328;
 	left: 121px;
 }
 
-.map-sensor1 {
-	position: relative;
-	left: 73px;
-	top: 30px;
-}
+// .map-sensor1 {
+// 	position: relative;
+// 	left: 73px;
+// 	top: 30px;
+// }
 
 
 //adaptive part
@@ -532,6 +532,7 @@ h1, h2, h3 {
 	background-repeat: no-repeat;
 	background-position: 2px 11px;
 	padding-left: 10px;
+	position: relative;
 }
 
 .chose-city-992 {
@@ -539,3 +540,7 @@ h1, h2, h3 {
 	padding-left: 13px;
 }
 
+.house-control {
+	position: absolute;
+	bottom: 0px;
+}
