@@ -857,18 +857,36 @@ a {
 
 .map-sensor {
   display: inline-block;
-  list-style: none; }
+  list-style: none;
+  background-image: url("../../img/sensor.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 600px;
+  height: 720px;
+  position: absolute;
+  top: -520px;
+  z-index: 12; }
+  .map-sensor .sensor-img {
+    width: 302px;
+    padding-top: 124px; }
 
 .map-sensor-descript {
-  background-color: #fff;
   margin-top: -5px;
-  padding: 28px 55px 18px 20px;
+  padding: 10px 55px 18px 55px;
   font-size: 18px;
-  line-height: 1.3; }
+  line-height: 1.3;
+  width: 380px;
+  margin: 0 auto;
+  text-align: left; }
+  .map-sensor-descript .descript-title {
+    font-size: 22px; }
 
 .yellow-button_radius {
   border-radius: 20px;
-  margin-top: 13px; }
+  margin-top: 13px;
+  font-size: 15px; }
 
 .triangle {
   position: relative;
@@ -889,25 +907,25 @@ a {
   display: none; }
 
 .map-sensor1 {
-  display: none; }
+  display: block; }
 
 .map-sensor2 {
-  display: none; }
+  display: block; }
 
 .map-sensor3 {
-  display: none; }
+  display: block; }
 
 .map-sensor4 {
-  display: none; }
+  display: block; }
 
 .map-sensor5 {
-  display: none; }
+  display: block; }
 
 .map-sensor6 {
-  display: none; }
+  display: block; }
 
 .map-sensor7 {
-  display: none; }
+  display: block; }
 
 h1, h2, h3 {
   line-height: 1; }
@@ -963,9 +981,48 @@ h1, h2, h3 {
   color: #e5b328;
   padding-left: 13px; }
 
-.house-control {
+.house-wrap {
+  display: inline-block;
   position: absolute;
-  bottom: 0px; }
+  bottom: 0; }
+
+.sensor-obj {
+  background-image: url("../../img/marker.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 40px;
+  width: 41px;
+  position: absolute; }
+
+.sensor-obj1 {
+  left: 85px;
+  bottom: 55px; }
+
+.sensor-obj2 {
+  left: 105px;
+  bottom: 180px; }
+
+.sensor-obj3 {
+  left: 170px;
+  bottom: 330px; }
+
+.sensor-obj4 {
+  left: 435px;
+  bottom: 155px; }
+
+.sensor-obj5 {
+  left: 380px;
+  bottom: 65px; }
+
+.sensor-obj6 {
+  left: 220px;
+  bottom: 83px; }
+
+.house-wrap .map-sensor1 {
+  left: -277px;
+  top: -578px; }
 
 .main-footer {
   background-color: #f6f5f4;
@@ -979,19 +1036,17 @@ h1, h2, h3 {
   .down-top-nav {
     margin-left: 20px; } }
 
-@media only screen and (min-width: 1100px) {
-  .sensor-list .sensor-list__item:hover {
-    color: #fff;
-    background-color: #e4a628;
-    background-image: none; } }
-
 @media only screen and (max-width: 1100px) {
   .sensor-list .sensor-list__item {
     font-size: 17px; } }
 
 @media only screen and (min-width: 992px) {
   .sensor-list {
-    margin-bottom: 10px; } }
+    margin-bottom: 10px; }
+  .sensor-list .sensor-list__item:hover {
+    color: #fff;
+    background-color: #e4a628;
+    background-image: none; } }
 
 @media only screen and (min-width: 992px) {
   .chose-city-992 {
@@ -1146,7 +1201,7 @@ h1, h2, h3 {
     z-index: 1;
     top: 40px; }
     .map-sensor img {
-      width: 290px; }
+      width: 300px; }
   .padding-form {
     padding-left: 0; }
   .fill-form {
@@ -1217,7 +1272,9 @@ h1, h2, h3 {
   .sensor-list-wrap-in {
     display: inline-block;
     text-align: left;
-    width: 195px; } }
+    width: 195px; }
+  .sensor-obj {
+    display: none; } }
 
 @media only screen and (max-width: 950px) {
   .header-lining {

@@ -417,19 +417,35 @@ $tab-accent-color: #e5b328;
 .map-sensor {
 	display: inline-block;
 	list-style: none;
+	@include bg-img("../../img/sensor.png");
+	width: 600px;
+    height: 720px;
+    position: absolute;
+    top: -520px;
+    z-index: 12;
+    .sensor-img {
+    	width: 302px;
+    	padding-top: 124px;
+    }
 }
 
 .map-sensor-descript {
-	background-color: #fff;
 	margin-top: -5px;
-	padding: 28px 55px 18px 20px;
+	padding: 10px 55px 18px 55px;
 	font-size: 18px;
 	line-height: 1.3;
+	width: 380px;
+    margin: 0 auto;
+    text-align: left;
+    .descript-title {
+    	font-size: 22px;
+    }
 }
 
 .yellow-button_radius {
 	border-radius: 20px;
 	margin-top: 13px;
+	font-size: 15px;
 }
 
 .triangle {
@@ -470,7 +486,7 @@ $tab-accent-color: #e5b328;
 
 @for $i from 1 through 7 {
 	.map-sensor#{$i} {
-		display: none;
+		display: block;
 	}
 }
 
@@ -540,7 +556,73 @@ h1, h2, h3 {
 	padding-left: 13px;
 }
 
-.house-control {
+// .house-control {
+// 	position: absolute;
+// 	bottom: 0px;
+// }
+
+.house-wrap {
+	display: inline-block;
 	position: absolute;
-	bottom: 0px;
+	bottom: 0;
+}
+
+// .clearfix:after {
+//     clear: both;
+//     content: ".";
+//     display: block;
+//     height: 0;
+//     visibility: hidden;
+// }
+// .clearfix {
+//     display: inline-block;
+// }
+// .clearfix {
+//     display: block;
+// }
+
+
+.sensor-obj {
+	@include bg-img('../../img/marker.png');
+	height: 40px;
+	width: 41px;
+	position: absolute;
+}
+
+.sensor-obj1 {
+	left: 85px;
+	bottom: 55px;
+}
+
+.sensor-obj2 {
+	left: 105px;
+	bottom: 180px;
+}
+
+.sensor-obj3 {
+	left: 170px;
+	bottom: 330px;
+}
+
+.sensor-obj4 {
+	left: 435px;
+	bottom: 155px;
+}
+
+.sensor-obj5 {
+	left: 380px;
+	bottom: 65px;
+}
+
+.sensor-obj6 {
+	left: 220px;
+	bottom: 83px;
+}
+
+
+.house-wrap {
+	.map-sensor1 {
+		left: -277px;
+		top: -578px;
+	}
 }

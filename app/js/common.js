@@ -62,9 +62,9 @@ var showSensor = (function() {
 			sensorItem.on('click', function() {
 				var screenWidth = $(window).width();
 				if (screenWidth < 992) {
-				var $that = $(this);
-				var sensorDescription = $that.next();
-				sensorDescription.slideToggle();
+					var $that = $(this);
+					var sensorDescription = $that.next();
+					sensorDescription.slideToggle();
 				}
 			});
 		}

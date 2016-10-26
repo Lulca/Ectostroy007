@@ -6,11 +6,7 @@
 }
 
 @media only screen and (min-width: 1100px) {
-	.sensor-list .sensor-list__item:hover {
-		color: #fff;
-		background-color: $accent-color2;
-		background-image: none;
-	}
+
 
 }
 
@@ -23,6 +19,12 @@
 @media only screen and (min-width: 992px) {
 	.sensor-list {
 		margin-bottom: 10px;
+	}
+
+	.sensor-list .sensor-list__item:hover {
+		color: #fff;
+		background-color: $accent-color2;
+		background-image: none;
 	}
 }
 
@@ -288,7 +290,7 @@
 		z-index: 1;
 		top: 40px;
 		img {
-			width: 290px;
+			width: 300px;
 		}
 	}
 
@@ -415,6 +417,10 @@
 		display: inline-block;
 		text-align: left;
 		width: 195px;
+	}
+
+	.sensor-obj {
+		display: none;
 	}
 }
 
