@@ -1058,6 +1058,30 @@ h1, h2, h3 {
   top: -578px;
   display: none; }
 
+.map-sensor11 {
+  display: none; }
+
+.map-sensor12 {
+  display: none; }
+
+.map-sensor13 {
+  display: none; }
+
+.map-sensor14 {
+  display: none; }
+
+.map-sensor15 {
+  display: none; }
+
+.map-sensor16 {
+  display: none; }
+
+.map-sensor17 {
+  display: none; }
+
+.map-sensor18 {
+  display: none; }
+
 .main-footer {
   background-color: #f6f5f4;
   padding: 25px 0px; }
@@ -1237,6 +1261,7 @@ h1, h2, h3 {
   .main-footer {
     display: none; }
   .map-sensor {
+    background-image: none;
     position: absolute;
     z-index: 2000;
     top: 40px; }
@@ -1335,7 +1360,32 @@ h1, h2, h3 {
   .basket {
     display: inline-block; }
   .icon-menu {
-    display: inline-block; } }
+    display: inline-block; }
+  .sensor-list .map-sensor {
+    display: inline-block;
+    position: relative;
+    top: 10px; }
+  .sensor-list .map-sensor-descript {
+    background-color: #fff;
+    margin-top: -5px;
+    padding: 28px 55px 18px 20px;
+    font-size: 18px;
+    line-height: 1.3; }
+  .sensor-list .map-sensor1 {
+    position: relative;
+    left: 73px;
+    top: 30px; }
+  .map-sensor {
+    width: 285px;
+    height: 460px; }
+  .sensor-list .map-sensor-descript {
+    width: 100%; }
+  .map-sensor img {
+    width: 100%; }
+  .sensor-list {
+    text-align: left; }
+  .sensor-list .map-sensor-descript {
+    padding-right: 20px; } }
 
 @media only screen and (max-width: 950px) {
   .header-lining {

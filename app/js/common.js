@@ -59,16 +59,21 @@ var choseCity = (function() {
 var showSensor = (function() {
 	return {
 		init: function() {
-			var sensorItem = $('.sensor-list__item');
+			var sensorItem = $('.sensor-list__item'),
+				mapSensor = $('.map-sensor').slideUp(0);
 
 			sensorItem.on('click', function() {
 				var screenWidth = $(window).width();
 				if (screenWidth < 992) {
-					// var $that = $(this);
-					// var sensorDescription = $that.next();
-					// sensorDescription.slideToggle();
-					console.log('hell1');
+					var $that = $(this);
+					var sensorDescription = $that.next();
+					sensorDescription.slideToggle();
+					// console.log('hell1');
 				}
+
+				$(window).resize(function(){
+					sensorDescription.slideUp();
+				});
 				
 			});
 		}

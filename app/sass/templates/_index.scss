@@ -652,3 +652,10 @@ h1, h2, h3 {
 	// 	// display: none;
 	// }
 }
+
+
+	@for $i from 11 through 18 {
+		.map-sensor#{$i} {
+			display: none;
+		}
+	}
