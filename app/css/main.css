@@ -823,6 +823,9 @@ a {
   margin-top: 40px;
   margin-bottom: 50px; }
 
+.sensor-list .sensor-list__item {
+  z-index: 200; }
+
 .be-informed {
   font-size: 24px;
   line-height: 1.3;
@@ -1022,7 +1025,38 @@ h1, h2, h3 {
 
 .house-wrap .map-sensor1 {
   left: -277px;
-  top: -578px; }
+  top: -578px;
+  display: none; }
+
+.house-wrap .map-sensor2 {
+  left: -277px;
+  top: -578px;
+  display: none; }
+
+.house-wrap .map-sensor3 {
+  left: -277px;
+  top: -578px;
+  display: none; }
+
+.house-wrap .map-sensor4 {
+  left: -277px;
+  top: -578px;
+  display: none; }
+
+.house-wrap .map-sensor5 {
+  left: -277px;
+  top: -578px;
+  display: none; }
+
+.house-wrap .map-sensor6 {
+  left: -277px;
+  top: -578px;
+  display: none; }
+
+.house-wrap .map-sensor7 {
+  left: -277px;
+  top: -578px;
+  display: none; }
 
 .main-footer {
   background-color: #f6f5f4;
@@ -1038,7 +1072,7 @@ h1, h2, h3 {
 
 @media only screen and (max-width: 1100px) {
   .sensor-list .sensor-list__item {
-    font-size: 17px; } }
+    font-size: 16px; } }
 
 @media only screen and (min-width: 992px) {
   .sensor-list {
@@ -1167,6 +1201,14 @@ h1, h2, h3 {
   .message {
     margin-top: 200px; } }
 
+@media only screen and (max-width: 992px) and (min-width: 951px) {
+  .icons-grup {
+    position: absolute;
+    right: 50px;
+    top: 146px; }
+  .drop-down-nav {
+    margin-top: -29px; } }
+
 @media only screen and (max-width: 991px) {
   .disp-none-992 {
     display: none; }
@@ -1195,10 +1237,8 @@ h1, h2, h3 {
   .main-footer {
     display: none; }
   .map-sensor {
-    width: 300px;
-    height: 400px;
     position: absolute;
-    z-index: 1;
+    z-index: 2000;
     top: 40px; }
     .map-sensor img {
       width: 300px; }
@@ -1255,7 +1295,7 @@ h1, h2, h3 {
   .nav-tabs {
     display: none; }
   .access {
-    background-position: 0px;
+    background-position: 90%;
     padding-bottom: 300px; }
   .pos-access {
     position: relative;
@@ -1274,7 +1314,28 @@ h1, h2, h3 {
     text-align: left;
     width: 195px; }
   .sensor-obj {
-    display: none; } }
+    display: none;
+    background-image: none; }
+  .house-wrap .map-sensor {
+    display: none;
+    background-image: url("../../img/sensor-nbg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    width: 319px;
+    height: 490px; }
+  .map-sensor .sensor-img {
+    padding-top: 50px;
+    width: 282px; }
+  .house-wrap .map-sensor1 {
+    display: block;
+    top: 10px;
+    left: 10px; }
+  .basket {
+    display: inline-block; }
+  .icon-menu {
+    display: inline-block; } }
 
 @media only screen and (max-width: 950px) {
   .header-lining {
@@ -1298,10 +1359,6 @@ h1, h2, h3 {
     padding-left: 30px; }
   .tab-pane .sprite-fast-icon {
     left: 0; }
-  .basket {
-    display: inline-block; }
-  .icon-menu {
-    display: inline-block; }
   .up-top-nav__item {
     margin-bottom: 10px; } }
 
@@ -1339,7 +1396,7 @@ h1, h2, h3 {
     padding-bottom: 30px;
     background-position: 60%; }
   .access {
-    background-position: 20%; }
+    background-position: 7 0%; }
   .sound-message {
     font-size: 14px; } }
 
@@ -1392,10 +1449,8 @@ h1, h2, h3 {
     height: 240px; }
   .icons-grup {
     top: 107px; }
-  .pos-access {
-    top: -20px; }
-  .message {
-    top: 0; } }
+  .access {
+    padding-bottom: 300px; } }
 
 @media only screen and (max-width: 410px) {
   .icons-grup {
@@ -1405,4 +1460,6 @@ h1, h2, h3 {
   .logo img {
     width: 180px; }
   .top-phone {
-    font-size: 14px; } }
+    font-size: 14px; }
+  .send-phone {
+    font-size: 18px; } }

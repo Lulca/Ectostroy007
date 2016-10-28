@@ -375,6 +375,10 @@ $tab-accent-color: #e5b328;
 	margin-bottom: 50px;
 }
 
+.sensor-list .sensor-list__item {
+	z-index: 200;
+}
+
 .be-informed {
 	font-size: 24px;
 	line-height: 1.3;
@@ -621,8 +625,30 @@ h1, h2, h3 {
 
 
 .house-wrap {
-	.map-sensor1 {
+
+	@for $i from 1 through 7 {
+	.map-sensor#{$i} {
 		left: -277px;
 		top: -578px;
+		display: none;
 	}
+}
+
+	// .map-sensor1 {
+	// 	left: -277px;
+	// 	top: -578px;
+	// 	display: none;
+	// }
+
+	// .map-sensor2 {
+	// 	left: -277px;
+	// 	top: -578px;
+	// 	display: none;
+	// }
+
+	// .map-sensor3 {
+	// 	left: -277px;
+	// 	top: -578px;
+	// 	// display: none;
+	// }
 }

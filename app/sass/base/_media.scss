@@ -12,7 +12,7 @@
 
 @media only screen and (max-width: 1100px) {
 	.sensor-list .sensor-list__item {
-		font-size: 17px;
+		font-size: 16px;
 	}
 }
 
@@ -230,6 +230,20 @@
 }
 
 
+@media only screen and (max-width: 992px) and (min-width: 951px){
+	.icons-grup {
+		position: absolute;
+		right: 50px;
+		top: 146px;
+	}
+
+	.drop-down-nav {
+		margin-top: -29px;
+	}
+}
+
+
+
 @media only screen and (max-width: 991px) {
 	.disp-none-992 {
 		display: none;
@@ -284,10 +298,10 @@
 	}
 
 	.map-sensor {
-		width: 300px;
-		height: 400px;
+		// width: 300px;
+		// height: 400px;
 		position: absolute;
-		z-index: 1;
+		z-index: 2000;
 		top: 40px;
 		img {
 			width: 300px;
@@ -387,7 +401,7 @@
 	}
 
 	.access {
-		background-position: 0px;
+		background-position: 90%;
 		padding-bottom: 300px;
 	}
 
@@ -421,7 +435,41 @@
 
 	.sensor-obj {
 		display: none;
+		background-image: none;
 	}
+
+	.house-wrap .map-sensor {
+		display: none;
+		@include bg-img("../../img/sensor-nbg.png");
+		width: 319px;
+		height: 490px;
+	}
+
+	.map-sensor .sensor-img {
+		padding-top: 50px;
+		width: 282px;
+	}
+
+	.sensor-list .sensor-list__item {
+		// z-index: 3000000;
+	}
+
+	.house-wrap .map-sensor1 {
+		display: block;	
+		top: 10px;
+		left: 10px;
+	}
+
+
+
+	.basket {
+		display: inline-block;
+	}
+
+	.icon-menu {
+		display: inline-block;
+	}
+
 }
 
 // .cities-tab {
@@ -468,13 +516,7 @@
 		left: 0;
 	}
 
-	.basket {
-		display: inline-block;
-	}
 
-	.icon-menu {
-		display: inline-block;
-	}
 
 	.up-top-nav__item {
 		margin-bottom: 10px;
@@ -539,7 +581,7 @@
 	}
 
 	.access {
-		background-position: 20%;
+		background-position: 7 0%;
 	}
 
 	.sound-message {
@@ -639,12 +681,16 @@
 		top: 107px;
 	}
 
-	.pos-access {
-		top: -20px;
-	}
+	// .pos-access {
+	// 	top: -20px;
+	// }
 
-	.message {
-		top: 0;
+	// .message {
+	// 	top: 0;
+	// }
+
+	.access {
+		padding-bottom: 300px;
 	}
 }
 
@@ -663,6 +709,10 @@
 
 	.top-phone {
 		font-size: 14px;
+	}
+
+	.send-phone {
+		font-size: 18px;
 	}
 } 
 
