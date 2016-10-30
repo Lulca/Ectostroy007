@@ -56,6 +56,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+background-image: url("../../img");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: scroll;
 @font-face {
   font-family: "FuturaBookC";
   src: url("../fonts/FuturaBookC/FuturaBookC.eot");
@@ -411,10 +416,12 @@ a {
   display: inline-block;
   color: #fff;
   text-decoration: none;
+  -webkit-transition: all .3s;
   transition: all .3s;
   background-color: #f7a042;
   padding: 8px 16px;
-  border-radius: 16px 16px 16px 16px; }
+  -webkit-border-radius: 16px 16px 16px 16px;
+          border-radius: 16px 16px 16px 16px; }
   .yellow-button:hover, .yellow-button:visited, .yellow-button:link, .yellow-button:active {
     text-decoration: none;
     color: #fff; }
@@ -425,10 +432,12 @@ a {
   display: inline-block;
   color: #fff;
   text-decoration: none;
+  -webkit-transition: all .3s;
   transition: all .3s;
   background-color: #1f1f1f;
   padding: 6px 18px;
-  border-radius: 16px 16px 16px 16px; }
+  -webkit-border-radius: 16px 16px 16px 16px;
+          border-radius: 16px 16px 16px 16px; }
   .black-button:hover, .black-button:visited, .black-button:link, .black-button:active {
     text-decoration: none;
     color: #fff; }
@@ -550,7 +559,8 @@ a {
 .carousel-indicators li {
   width: 180px;
   height: 30px;
-  border-radius: 0;
+  -webkit-border-radius: 0;
+          border-radius: 0;
   color: #fff;
   position: relative;
   z-index: 10;
@@ -568,7 +578,8 @@ a {
 
 .carousel-indicators li:first-child {
   left: 30px;
-  border-radius: 16px 0px 0px 16px;
+  -webkit-border-radius: 16px 0px 0px 16px;
+          border-radius: 16px 0px 0px 16px;
   border-top: 1px solid #575858;
   border-bottom: 1px solid #575858; }
 
@@ -579,7 +590,8 @@ a {
 .carousel-indicators li:last-child {
   width: 250px;
   left: -25px;
-  border-radius: 0px 16px 16px 0px;
+  -webkit-border-radius: 0px 16px 16px 0px;
+          border-radius: 0px 16px 16px 0px;
   border-top: 1px solid #575858;
   border-bottom: 1px solid #575858; }
   .carousel-indicators li:last-child span {
@@ -589,11 +601,13 @@ a {
   top: 0px;
   width: 181px;
   height: 30px;
-  border-radius: none;
+  -webkit-border-radius: none;
+          border-radius: none;
   background-color: #f7a042;
   border-color: #f7a042 !important;
   z-index: 100;
-  border-radius: 16px 16px 16px 16px !important; }
+  -webkit-border-radius: 16px 16px 16px 16px !important;
+          border-radius: 16px 16px 16px 16px !important; }
 
 .drive {
   background-image: url("../../img/drive-bg.png");
@@ -706,7 +720,8 @@ a {
 
 .nav-tabs > li > a {
   border: none;
-  border-radius: 0; }
+  -webkit-border-radius: 0;
+          border-radius: 0; }
 
 .nav-tabs > li {
   float: none;
@@ -785,7 +800,8 @@ a {
   margin-bottom: 10px; }
 
 .send-form .form-send-button {
-  border-radius: 18px 18px 18px 18px;
+  -webkit-border-radius: 18px 18px 18px 18px;
+          border-radius: 18px 18px 18px 18px;
   border: none;
   margin-top: 6px; }
 
@@ -887,7 +903,8 @@ a {
     font-size: 22px; }
 
 .yellow-button_radius {
-  border-radius: 20px;
+  -webkit-border-radius: 20px;
+          border-radius: 20px;
   margin-top: 13px;
   font-size: 15px; }
 
@@ -1081,6 +1098,9 @@ h1, h2, h3 {
 
 .map-sensor18 {
   display: none; }
+
+.tab-content {
+  padding-left: 10px; }
 
 .main-footer {
   background-color: #f6f5f4;
@@ -1362,7 +1382,6 @@ h1, h2, h3 {
   .icon-menu {
     display: inline-block; }
   .sensor-list .map-sensor {
-    display: inline-block;
     position: relative;
     top: 10px; }
   .sensor-list .map-sensor-descript {

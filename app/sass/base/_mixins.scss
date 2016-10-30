@@ -18,3 +18,5 @@
         background-size: cover;
         background-attachment: $att;  
 }
+
+@include bg-img('../../img');

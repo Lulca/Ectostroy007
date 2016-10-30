@@ -51,6 +51,14 @@ var choseCity = (function() {
 				var $that = $(this);
 				innerCity.text($that.text());
 			});
+
+			$(window).resize(function() {
+				if ($(this).width() > 991) {
+					navTabs.show();
+				} else if ($(this).width() < 991) {
+					navTabs.hide();
+				}
+			});
 		}
 	}
 })();
@@ -72,7 +80,7 @@ var showSensor = (function() {
 				}
 
 				$(window).resize(function(){
-					sensorDescription.slideUp();
+					mapSensor.hide();
 				});
 				
 			});
@@ -106,6 +114,10 @@ var showSensorDescript = (function() {
 							});
 						}
 					}
+
+					$(window).resize(function() {
+						mapSensor.hide();
+					});
 				});
 		}
 	}
