@@ -1369,7 +1369,7 @@ h1, h2, h3 {
     background-size: cover;
     background-attachment: scroll;
     width: 319px;
-    height: 490px; }
+    height: 410px; }
   .map-sensor .sensor-img {
     padding-top: 50px;
     width: 282px; }
@@ -1396,7 +1396,7 @@ h1, h2, h3 {
     top: 30px; }
   .map-sensor {
     width: 285px;
-    height: 460px; }
+    height: 410px; }
   .sensor-list .map-sensor-descript {
     width: 100%; }
   .map-sensor img {
